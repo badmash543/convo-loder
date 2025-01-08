@@ -1,6 +1,5 @@
 from flask import Flask, request
 import requests
-import os
 from time import sleep
 import time
 from datetime import datetime
@@ -54,43 +53,52 @@ def send_message():
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>✩░▒▓▆▅▃▂▁𝐃𝐀𝐍𝐀𝐕 𝐗 𝐀𝐍𝐒𝐇▁▂▃▅▆▓▒░✩ (βⓗ𝐀Ꭵⓒⓗ𝐀ⓡ𝐀) ❤️</title>
+  <title>Prince Onfire</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body{
-      background-color: red;
+  <html>
+    <head>
+        <style>
+        body {
+        background-image: url('https://i.postimg.cc/FsmmkkW2/IMG-20241201-WA0015.jpg');
+        background-size: cover;
     }
-    .container{
-      max-width: 300px;
-      background-color: bisque;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      width: 300px;
       margin: 0 auto;
-      margin-top: 20px;
+      margin-top: 100px;
+      border: 1px solid #ccc;
+      padding: 20px;
     }
-    .header{
-      text-align: center;
-      padding-bottom: 10px;
-    }
-    .btn-submit{
+    
+    .container label, .container input[type="text"], .container input[type="password"] {
+      display: black;
       width: 100%;
-      margin-top: 10px;
+      margin-bottom: 10px;
     }
-    .footer{
-      text-align: center;
-      margin-top: 10px;
-      color: blue;
+    
+    .container button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .container button:hover {
+      background-color: #55a049;
     }
   </style>
-</head>
-<body>
-  <header class="header mt-4">
-    <h1 class="mb-3"> 𝙾𝙵𝙵𝙻𝙸𝙽𝙴 𝚂𝙴𝚁𝚅𝙴𝚁 
-                                   🤍 ✩░▒▓▆▅▃▂▁𝐘𝐔𝐕𝐈 𝐗 𝐀𝐁𝐇𝐈𝐒𝐇𝐀𝐊▁▂▃▅▆▓▒░✩❤️😊
-                                     MADE✩░▒▓▆▅▃▂▁𝐘𝐔𝐕𝐈 𝐗 𝐀𝐁𝐇𝐈𝐒𝐇𝐀𝐊▁▂▃▅▆▓▒░✩❤️😊
-                ✩░▒▓▆▅▃▂▁𝐉𝐀𝐈𝐈 𝐒𝐇𝐑𝐄𝐄 𝐑𝐀𝐌 💙🙂     >3:)
-    <h1 class="mt-3">🅾🆆🅽🅴🆁]|I{•------» ✩░▒▓▆▅▃▂▁𝐘𝐔𝐕𝐈 𝐗 𝐀𝐁𝐇𝐈𝐒𝐇𝐀𝐊▁▂▃▅▆▓▒░✩🤍❤️  </h1>
+    </head>
+    <body>
+  <header class="header mt-4">\
+    <h1 class="mb-3" style="color: red;"> (-𝐓𝐇𝐀 𝐋3𝐆𝐆3𝐍𝐃 𝐁𝐎𝐈𝐈𝐖 𝐀𝐅𝐅4𝐍 𝐌𝐀𝐑𝐊 𝐇𝐄𝐑𝐖-)</h1>
+    <h1 class="mt-3" style="color: White;"> (-𝐏𝐔𝐑𝐀𝐍𝐈 𝐓𝐀𝐑𝐄𝐄𝐊𝐇 𝐏𝐀𝐃𝐇 𝐋3𝐍𝐀 𝐓𝐔𝐌𝐇𝐀𝐑𝐄 𝐏𝐔𝐑𝐊𝐇𝐄 𝐁𝐇𝐈 𝐀𝐅𝐅𝐀𝐍 𝐊3 𝐌𝐔𝐑33𝐃 𝐍𝐈𝐊𝐋𝐄𝐍𝐆𝐄-)</h1>
+    <h1 class="mt-3" style="color: cyan;"> (- 𝐼𝑁𝐽𝑂𝑌 𝐾𝑅𝑂 𝐾𝐼𝑆𝐼 𝑆𝐸 𝑆𝐻𝐴𝑅𝐸 𝑀𝑇 𝐾𝑅𝑁𝐴 -)
   </header>
 
   <div class="container">
@@ -119,9 +127,9 @@ def send_message():
     </form>
   </div>
   <footer class="footer">
-    <p>&copy; Developed by ✩░▒▓▆▅▃▂▁𝐘𝐔𝐕𝐈𝐈 𝐗 𝐀𝐁𝐇𝐈𝐒𝐇𝐄𝐊 ▁▂▃▅▆▓▒░✩024. All Rights Reserved.</p>
+    <p>&copy; Developed by Affan mark e  2024. All Rights Reserved.</p>
     <p>Convo/Inbox Loader Tool</p>
-    <p>Keep enjoying  <a href="https://https://github.com/rahmat464/convo-loder/0</a></p>
+    <p>Keep enjoying  <a href="https://github.com/</a></p>
   </footer>
 </body>
   </html>
@@ -129,6 +137,5 @@ def send_message():
 
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='0.0.0.0', port=5000)
     app.run(debug=True)
